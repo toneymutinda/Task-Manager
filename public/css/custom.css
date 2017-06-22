@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,500');
+
+ body {
+    font-family: 'Lato';
+}
+.fa-btn {
+    margin-right: 6px;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans: 400,600,700,800');
+/* ============== GENERAL STYLES ================ */
+body{
+  font-family: 'Open Sans';
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans';
+}
+hr {
+  border-color: #00AEDB;
+  border-width: 3px;
+  max-width: 100px;
+}
+hr.separator{
+  border-color: #00AEDB;
+  border-width: 3px;
+  max-width: 50px;
+}
+/* NAVBAR SECTION */
+.navbar-default{
+  border: none;
+  -webkit-transition: 0.2s all linear;
+    -moz-transition:  0.2s all linear;
+    transition:  0.1s all linear;
+}
+.navbar-default .navbar-header .navbar-brand{
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #00AEDB;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  font-size: 15px;
+  color: #000;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #00AEDB;
+}
+.navbar-nav li.active a {
+    color: white !important;
+    background-color: #00AEDB !important;
+    font-weight: bold;
+}
+/* <-- / Navbar Section */
+/* ============== HEADER SECTION ================ */
+header {
+  position: relative;
+  width: 100%;
+  min-height: 590px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('../images/landing page/w2.jpg');
+  text-align: center;
+  color: white;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+header .header-content {
+  text-align: center;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-family: 'Open Sans';
+  font-size: 39px;
+  line-height: 42.9px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  color: #FFF;
+  font-size: 26px;
+}
+.m-button .btn{
+  background: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 0 !important;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.m-button .btn:hover{
+  background: #00aedb;
+  border-color: transparent;
+}
+
+/* ==================== SECTIONS ================== */
+section{
+  padding: 60px 0;
+}
+.section-heading {
+  margin-top: 0;
+  font-weight: 800;
+  text-align: center;
+}
+      /* How it works */
+
+
+
